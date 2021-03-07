@@ -10,7 +10,8 @@
 
 ```
 O código abaixo garante que todos os elementos sejam dimensionados de forma mais intuitiva. 
-Muitos navegadores já usam box-sizing: border-box;para muitos elementos de formulário (mas não todos - é por isso que as entradas e as áreas de texto parecem diferentes na largura: 100%;).
+Muitos navegadores já usam box-sizing: border-box; 
+para muitos elementos de formulário (mas não todos - é por isso que as entradas e as áreas de texto parecem diferentes na largura: 100%;).
 ```
 
 6. Site de imagens gratuitas [Unsplash](https://unsplash.com/)
