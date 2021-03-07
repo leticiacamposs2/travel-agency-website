@@ -23,3 +23,18 @@
 6. Site de imagens gratuitas [Unsplash](https://unsplash.com/)
 7. Documentações em inglês são muito ricas, exemplo o de background da [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/background) é possível até testar
 8. A propriedade `cover` usada no background `no-repeat center/cover url` faz com a imagem se encaixe no tamanho da tela
+9. Para consultar as medias queries mais importantes, consulte o forum sobre o assunto no [stackoverflow](https://stackoverflow.com/questions/12045893/which-are-the-most-important-media-queries-to-use-in-creating-mobile-responsive)
+
+```javascript
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+```

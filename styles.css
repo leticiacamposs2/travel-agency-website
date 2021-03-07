@@ -54,3 +54,33 @@ header nav ul li {
     margin-bottom: 10px;
     font-size: 4rem;
 }
+
+/* RESPONSIVIDADE */
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    header {
+        background: green;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    header {
+        background: yellow;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    header {
+        background: red;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    header {
+        background: hotpink;
+    }
+}
