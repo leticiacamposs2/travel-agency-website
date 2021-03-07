@@ -38,3 +38,5 @@
 /* Large desktop */
 @media (min-width: 1200px) { ... }
 ```
+
+10. Para os ícones o site usado foi [Feathericons](https://feathericons.com/)
