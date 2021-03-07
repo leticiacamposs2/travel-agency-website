@@ -14,8 +14,9 @@ button {
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: tomato;
+    background: #f4a261;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -46,7 +47,7 @@ header nav ul li {
 
 .header-content {
     max-width: 400px;
-    margin: 180px auto;
+    margin: 150px auto;
     text-align: center;
 }
 
@@ -55,32 +56,56 @@ header nav ul li {
     font-size: 4rem;
 }
 
-/* RESPONSIVIDADE */
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-    header {
-        background: green;
-    }
+.pacotes {
+    background: #e1e8f7;
+    padding: 15px;
 }
+
+/* RESPONSIVIDADE */
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-    header {
-        background: yellow;
+
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body {
+        margin-bottom: 55px;
+    }
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 99;
+        background: #f4a261;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
     }
 }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+/* @media (min-width: 768px) and (max-width: 979px) {
     header {
         background: red;
     }
-}
+} */
 
 /* Large desktop */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     header {
         background: hotpink;
     }
-}
+} */
