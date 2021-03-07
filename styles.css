@@ -9,10 +9,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
 button {
     padding: 10px 15px;
     border-radius: 8px;
@@ -22,30 +18,30 @@ button {
     color: white;
 }
 
-ul {
-    list-style: none;
-    display: flex;
+header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url('assets/header-image.jpg');
 }
 
-li {
-    margin: 0 15px;
-    font-weight: bold;
-    color: white;
-}
-
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     margin: auto 30px;
 }
 
-nav p {
+header nav p {
     font-weight: bold;
 }
 
-header {
-    height: calc(100vh - 150px);
-    background: no-repeat center/cover url('assets/header-image.jpg');
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
 }
 
 .header-content {
@@ -56,4 +52,5 @@ header {
 
 .header-content h1 {
     margin-bottom: 10px;
+    font-size: 4rem;
 }
