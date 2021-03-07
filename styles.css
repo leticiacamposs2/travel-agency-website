@@ -6,6 +6,7 @@
     --ice: #e1e8f7;
     --grey: #808080;
     --blue: #1d61dd;
+    --wine: #612137;
 }
 
 * {
@@ -24,9 +25,8 @@ ul {
 button {
     padding: 10px 15px;
     border-radius: 8px;
-    font-weight: bold;
     border: 0;
-    background: var(--salmon);
+    background: var(--wine);
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
 }
@@ -65,20 +65,31 @@ header nav ul li {
 .header-content h1 {
     margin-bottom: 10px;
     font-size: 4rem;
+    text-shadow: 2px 2px var(--white);
 }
 
 .pacotes {
     background: var(--ice);
     padding: 15px;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.pacotes .pacotes-cards {
     display: flex;
 }
+
 
 .pacotes .card {
     width: 250px;
     height: 350px;
     border-radius: 24px 0px;
     background: var(--white);
-    margin: 25px;
+    margin: 25px auto;
     position: relative;
 }
 
@@ -86,7 +97,7 @@ header nav ul li {
     position: absolute;
     right: 0;
     top: 15px;
-    background: var(--salmon);
+    background: var(--wine);
     border-radius: 8px 0 0 8px;
     padding: 5px 10px;
 }
@@ -104,14 +115,14 @@ header nav ul li {
     margin: 0;
     font-size: 0.8rem;
     color: var(--white);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .pacotes .card .card-tag p {
     margin: 0;
     font-size: 0.8rem;
     color: var(--white);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .pacotes .card-image {
@@ -170,7 +181,7 @@ header nav ul li {
         padding: 0;
         margin: 0;
         z-index: 99;
-        background: var(--salmon);
+        background: var(--wine);
         color: var(--white);
         font-weight: bold;
         height: 55px;
