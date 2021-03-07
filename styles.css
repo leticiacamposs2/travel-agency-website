@@ -9,6 +9,19 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: tomato;
+    color: white;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -16,6 +29,8 @@ ul {
 
 li {
     margin: 0 15px;
+    font-weight: bold;
+    color: white;
 }
 
 nav {
@@ -30,5 +45,15 @@ nav p {
 
 header {
     height: calc(100vh - 150px);
-    background: url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1533&q=80');
+    background: no-repeat center/cover url('assets/header-image.jpg');
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 180px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin-bottom: 10px;
 }

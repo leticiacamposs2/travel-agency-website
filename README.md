@@ -21,4 +21,5 @@
 *Para muitos elementos de formulário (mas não todos - é por isso que as entradas e as áreas de texto parecem diferentes na largura: 100%;).*
 
 6. Site de imagens gratuitas [Unsplash](https://unsplash.com/)
-
+7. Documentações em inglês são muito ricas, exemplo o de background da [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/background) é possível até testar
+8. A propriedade `cover` usada no background `no-repeat center/cover url` faz com a imagem se encaixe no tamanho da tela
