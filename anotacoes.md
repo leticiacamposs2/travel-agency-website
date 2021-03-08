@@ -57,3 +57,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 ```
+
+15. Edição de Readmes online através do site [StackEdit](https://stackedit.io/)
+16. Criação de Gif com o software [ScreenGrabber](https://www.acethinker.com/desktop-recorder)
