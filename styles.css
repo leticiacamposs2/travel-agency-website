@@ -226,6 +226,11 @@ header nav ul li {
     background: var(--blue);
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+}
+
 
 /* RESPONSIVIDADE */
 
