@@ -40,3 +40,5 @@
 ```
 
 10. Para os ícones o site usado foi [Feathericons](https://feathericons.com/)
+11. Para idéias de sites, mockups usamos o site [Balbooa](http://balbooa.com/)
+12. Dica de formatador de JS, CSS, HTML só instalar a extensão **JS-CSS-HTML Formatter**
