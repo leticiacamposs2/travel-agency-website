@@ -44,3 +44,16 @@ Acesse: travel-agency-website.vercel.app/
 11. Para idéias de sites, mockups usamos o site [Balbooa](http://balbooa.com/)
 12. Dica de formatador de JS, CSS, HTML só instalar a extensão **JS-CSS-HTML Formatter**
 13. Dica para adicionar map ao site pesquise no google por `map integration in html` e o serviço deste projeto foi o da [Google](https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+14. Inserindo animação de smooth no link do menu, busca por `smoth scroll anchor` e no link do [stackoverflow]() vai ter o seguinte código
+
+```javascript
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+```
