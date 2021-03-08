@@ -41,6 +41,12 @@ header nav {
     margin: auto 30px;
 }
 
+header nav a {
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+}
+
 header nav p {
     font-weight: bold;
 }
